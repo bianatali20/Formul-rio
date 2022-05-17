@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+ 
+<html>
+ <head>
+ <title> formulário HTML </title>
+ <meta name="description" content="Formulários em HTML">
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+ 
+ <style>
+  .div-form {
+      width: 280px;
+      border: 4px black solid;
+  }
+</style>
+</head>
+</head>
+
+ <body>
+  
+  <h1 id="#file:///C:/Users/beatr/Documents/Padr%C3%A3o%20web/trabalho.pw/formulario.html"> </h1>
+  <h1> Preencha o formulário abaixo </h1><br />
+
+<form action="Script_do_Formulario.php" method="post">
+
+  <body>
+    <div class="div-form">
+        <form action="formulario">
+            <!--Nome-->
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+            <br>
+
+            <!--Data de Nascimento-->
+            <label for="nascimento">Data de Nascimento:</label>
+            <input type="date" id="nascimento" name="nascimento">
+            <br>
+
+            <!--Sexo-->
+            <label for="">Sexo:</label>
+            <input type="radio" id="m" name="sexo" value="m">
+            <label for="m">M</label>
+            <input type="radio" id="f" name="sexo" value="f">
+            <label for="f">F</label>
+            <input type="radio" id="n-a" name="sexo" value="n-a">
+            <label for="n-a">Prefiro não informar</label>
+            <br>
+
+<!--Endereço-->
+            
+            <label for="">Endereço:</label>
+            <br>
+            <label for="logradouro">Logradouro:</label>
+            <input type="text" id="logradouro" name="logradouro">
+            <br>
+            <label for="bairro">Bairro:</label>
+            <input type="text" id="bairro" name="bairro">
+            <br>
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade">
+            <br>
+            <label for="cep">CEP: </label>
+            <input type="text" name="cep" size="5" maxlength="5"> - <input type="text" name="cep2" size="3" maxlength="3">
+            <br>
+           <label for="estado">Estado:</label>
+    <select name="estado">
+    <option value=""></option>  
+    <option value="ac">Acre</option> 
+    <option value="df">Distrito Federal</option> 
+    <option value="go">Goiás</option>  
+    <option value="rj">Rio de Janeiro</option>  
+    <option value="rs">Rio Grande do Sul</option> 
+    <option value="sp">São Paulo</option> 
+    </select>
+    <br>
+    <!--Email-->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <br>
+
+    <!--Botões-->
+    <input type="reset" value="limpar">
+    <input type="submit" value="enviar">
+    <p></p>
+
+
+
+
+
+</form>
+</div>
+
+</body>
+
+</html>
+   
